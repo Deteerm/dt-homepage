@@ -1,8 +1,15 @@
 ---
+import "../styles/global.css";
+import Navbar from "@/components/Navbar.astro";
 interface Props {
   title: string;
 }
-
+// Empoleon S
+// Charizard X
+// Ash Greninja A
+// Xerneas A
+// Corviknight A
+// Ceruledge B
 const { title } = Astro.props;
 ---
 
@@ -12,14 +19,17 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.jpeg" />
     <meta name="generator" content={Astro.generator} />
     <title>
       {title}
     </title>
   </head>
-  <body>
-    <slot />
+  <body class="bg-primary text-neutral-50">
+    <Navbar />
+    <div class="pt-20 px-6">
+      <slot />
+    </div>
   </body>
 </html>
 <style is:global>

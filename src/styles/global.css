@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0a0f1c; /* Dark navy for background */
+  --color-secondary: #142033; /* Slightly lighter dark blue for contrast */
+  --color-accent: #1f3b5f; /* Deep steel blue for elements */
+  --color-highlight: #3490dc; /* Frosty electric blue for accents */
+  --color-glow: #57a3f3; /* Bright icy blue for neon effects */
+  --color-danger: #8a2be2; /* Dark purple-blue for mystical highlights */
+  --font-sans: Poppins, sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
